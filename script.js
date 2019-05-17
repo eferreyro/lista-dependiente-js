@@ -7,6 +7,7 @@
             titulo.addEventListener("change", cambiar);
         } else if (titulo.attachEvent) {   // Para IE 8 y anteriores
             titulo.attachEvent("change", cambiar); // attachEvent() es el método equivalente a addEventListener()
+            
         }
 
         // Definición de la función cambiar()
